@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="imu_node" type="imu_node.py" name="imu_node" output="screen" />
+  <node pkg="imu_node" type="subscriber_node.py" name="subscriber_node" output="screen" />
+  <node pkg="imu_node" type="ai_node.py" name="ai_node" output="screen" />
+</launch>
